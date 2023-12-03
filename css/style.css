@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+
+.blue{
+    margin-top: 25px;
+    height: 800px;
+    background-color: blue;
+}
+
+.yelow{
+    height: 800px;
+    background-color: yellow;
+}
+
+.container{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.space1{
+    height: 50px;
+    width: 800px;
+    background-color: blue;
+}
+
+.red{
+    height: 350px;
+    width: 900px;
+    background-color: black;
+}
+
+.black{
+    height: 350px;
+    width: 900px;
+    background-color: black;
+}
+
+.red:hover { 
+    background-color: red;
+    transition: 3s;
+}
+
+.movement{
+    margin: 0 auto;
+    height: 200px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.movement:hover{
+    background-image: url(../img/img1.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    transform: rotate(360deg);
+    transition: 5s;
+}
+
+.space2{
+    height: 200px;
+}
+
+footer{
+    background-color: black;
+}
+
+.passing{
+    text-align: right;
+}
+
+button{
+    margin: 50px;
+    background-color: red;
+    height: 100px;
+    width: 200px;
+    border-radius:50%;
+    font-weight: 900;
+    font-size: larger;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* button{
+    animation-duration: 3s;
+    animation-name: slidein;
+} */
+
+
+
+
+/* @keyframes button {
+    from {
+        margin: 50px;
+        background-color: red;
+        height: 100px;
+        width: 200px;
+        border-radius:50%;
+        font-weight: 900;
+        font-size: larger;
+    }
+    to {
+        margin: 50px;
+        background-color: green;
+        height: 100px;
+        width: 200px;
+        border-radius:50%;
+        font-weight: 900;
+        font-size: larger;
+    }
+} */

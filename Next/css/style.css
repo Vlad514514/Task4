@@ -1,0 +1,45 @@
+li:first-child{
+    background-color: black;
+    color: red;
+}
+
+p{
+  color: yellow;
+  background-color: blue;
+}
+
+p::first-line{
+  background-color: black;
+  color: red;
+}
+
+p::first-letter{
+  font-size: xx-large;
+}
+
+.box{
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+  animation-name: box;
+	animation-duration: 5s;
+  animation-direction:reverse;
+}
+
+
+
+@keyframes box {
+
+  from {  
+    height: 250px;
+    width: 250px;
+    background-color: blue;}
+
+  to {
+    height: 450px;
+    width: 450px;
+    background-color: yellow;
+   }
+
+}
+
